@@ -1,13 +1,30 @@
+<<<<<<< HEAD
 # Editor configuration, see http://editorconfig.org
 root = true
 
 [*]
+=======
+# https://editorconfig.org
+
+root = true
+
+[*.ts]
+>>>>>>> 29660aa8edf23c416c8c82677136b642c4992c2d
 charset = utf-8
 indent_style = space
 indent_size = 2
 insert_final_newline = true
+<<<<<<< HEAD
 trim_trailing_whitespace = true
 
 [*.md]
 max_line_length = off
 trim_trailing_whitespace = false
+=======
+spaces_around_brackets = inside
+trim_trailing_whitespace = true
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = true
+>>>>>>> 29660aa8edf23c416c8c82677136b642c4992c2d

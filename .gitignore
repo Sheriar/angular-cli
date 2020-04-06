@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
@@ -19,10 +20,39 @@
 
 # IDE - VSCode
 .vscode/*
+=======
+# Outputs
+bazel-*
+test-project-host-*
+dist/
+dist-schema/
+
+# IDEs
+jsconfig.json
+
+# Intellij IDEA/WebStorm
+# https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea/inspectionProfiles/
+.idea/**/compiler.xml
+.idea/**/encodings.xml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Also ignore code styles because .editorconfig is used instead.
+.idea/codeStyles/
+
+# VSCode
+# https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+.vscode/
+>>>>>>> 29660aa8edf23c416c8c82677136b642c4992c2d
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+<<<<<<< HEAD
 
 # misc
 /.sass-cache
@@ -41,3 +71,21 @@ testem.log
 .DS_Store
 Thumbs.db
 *.iml
+=======
+**/*.code-workspace
+
+# Typings file.
+typings/
+
+# Misc
+coverage/
+node_modules/
+tmp/
+npm-debug.log*
+yarn-error.log*
+.ng_pkg_build/
+
+# Mac OSX Finder files.
+**/.DS_Store
+.DS_Store
+>>>>>>> 29660aa8edf23c416c8c82677136b642c4992c2d
